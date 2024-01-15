@@ -31,6 +31,12 @@ jobs:
       - run: make website-build
       # Make sure that we can build storybook
       - run: make storybook-build
+      # Upload artifacts
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v2
+        with:
+          name: sunburst-package
+          path: packages/sunburst/dist
 
   end-to-end-tests:
     runs-on: ubuntu-22.04
