@@ -1,7 +1,7 @@
 {
     "name": "@nivo/grid",
     "description": "grid components for nivo dataviz library",
-    "version": "0.84.1-alpha.0",
+    "version": "0.84.2",
     "license": "MIT",
     "author": {
         "name": "Raphaël Benitte",
@@ -9,7 +9,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/plouc/nivo.git",
+        "url": "https://github.com/capturi/nivo.git",
         "directory": "packages/grid"
     },
     "sideEffects": false,
@@ -23,6 +23,6 @@
         "!dist/tsconfig.tsbuildinfo"
     ],
     "publishConfig": {
-        "access": "public"
+        "registry": "https://npm.pkg.github.com"
     }
 }

@@ -1,6 +1,6 @@
 {
     "name": "@nivo/api",
-    "version": "0.84.1",
+    "version": "0.84.2",
     "private": true,
     "description": "Rendering API for nivo dataviz React/d3 components",
     "main": "src/app.js",
@@ -44,6 +44,6 @@
         "build": "tsc"
     },
     "publishConfig": {
-        "access": "public"
+        "registry": "https://npm.pkg.github.com"
     }
 }
